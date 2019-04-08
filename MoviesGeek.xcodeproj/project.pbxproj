@@ -13,7 +13,7 @@
 		875898FF2255692C00D7051F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 875898FD2255692C00D7051F /* LaunchScreen.storyboard */; };
 		875899072255699700D7051F /* MoviesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875899062255699700D7051F /* MoviesListViewController.swift */; };
 		8758990B22556A0300D7051F /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8758990A22556A0300D7051F /* Movie.swift */; };
-		8758990D22556BDF00D7051F /* MovieGenres.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8758990C22556BDF00D7051F /* MovieGenres.swift */; };
+		8758990D22556BDF00D7051F /* EntityTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8758990C22556BDF00D7051F /* EntityTypes.swift */; };
 		8758991122556D2000D7051F /* PersistenceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8758991022556D2000D7051F /* PersistenceService.swift */; };
 		875899142255720400D7051F /* MovieAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875899132255720400D7051F /* MovieAPI.swift */; };
 		87589919225591FB00D7051F /* Movie.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 87589917225591FB00D7051F /* Movie.xcdatamodeld */; };
@@ -34,7 +34,7 @@
 		875899002255692C00D7051F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		875899062255699700D7051F /* MoviesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesListViewController.swift; sourceTree = "<group>"; };
 		8758990A22556A0300D7051F /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
-		8758990C22556BDF00D7051F /* MovieGenres.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGenres.swift; sourceTree = "<group>"; };
+		8758990C22556BDF00D7051F /* EntityTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntityTypes.swift; sourceTree = "<group>"; };
 		8758991022556D2000D7051F /* PersistenceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceService.swift; sourceTree = "<group>"; };
 		875899132255720400D7051F /* MovieAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieAPI.swift; sourceTree = "<group>"; };
 		87589918225591FB00D7051F /* CoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreData.xcdatamodel; sourceTree = "<group>"; };
@@ -95,7 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				8758990A22556A0300D7051F /* Movie.swift */,
-				8758990C22556BDF00D7051F /* MovieGenres.swift */,
+				8758990C22556BDF00D7051F /* EntityTypes.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -235,7 +235,7 @@
 				875898F52255692B00D7051F /* AppDelegate.swift in Sources */,
 				8758991B2256224400D7051F /* QRScannerViewController.swift in Sources */,
 				8758990B22556A0300D7051F /* Movie.swift in Sources */,
-				8758990D22556BDF00D7051F /* MovieGenres.swift in Sources */,
+				8758990D22556BDF00D7051F /* EntityTypes.swift in Sources */,
 				875899072255699700D7051F /* MoviesListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -375,7 +375,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = D652685959;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MoviesGeek/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -394,7 +394,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = D652685959;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MoviesGeek/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
